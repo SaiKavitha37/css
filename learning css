@@ -1,0 +1,118 @@
+css stands for cascading style sheets which is used to describe how html elements are displayed on screen,paper etc..
+syntax:
+---------
+selector { property1:value1;property2:value2 }
+example:
+p {
+color:red;
+text-align:center;
+}
+------------------------------------------------------------
+css selectors:
+---------
+selectors select the html elements which you wants to style
+These are five types:
+-------1.simple selectors(used to select elements based on name,id or class)
+-------2.combinator selectors(based on relation b/n them)
+-------3.pseudo class selectors(based on certain states)
+-------4.pseudo elements selectors(based on certain part of an element)
+-------5.attribute selectors(based on attributes)
+----------------
+1.simple selectors:
+--------------------------
+based on id:
+-------------
+<html>
+<head>
+<style>
+#pree {
+color:blue
+}
+</style>
+</head>
+<body>
+<p id="pree">"KIWI</p>
+</body>
+</html>
+----------------
+based on name:
+<html>
+<head>
+<style>
+p {
+color:blue
+}
+</style>
+</head>
+<body>
+<p>"KIWI</p>
+</body>
+</html>
+-----------------------
+based on class:
+<html>
+<head>
+<style> 
+.cls {
+color:blue
+}
+</style>
+</head>
+<body>
+<p class="cls">"KIWI</p>
+</body>
+</html>
+------------------------
+css universal selector:
+<html>
+<head>
+<style>
+* {
+color:blue
+}
+</style>
+</head>
+<body>
+<p>"KIWI</p>
+</body>
+</html>
+-------------------
+css grouping selctor
+<html>
+<head>
+<style>
+p{
+color:blue
+}
+h1{
+color:blue
+}
+h2{
+color:blue
+}
+</style>
+</head>
+<body>
+<p>"KIWI</p>
+<h1>"HELLO"</h1>
+<h2>"WORLD"</h2>
+</body>
+</html>
+--------------------we can group above like
+<html>
+<head>
+<style>
+p,h1,h2
+{
+color:blue
+}
+</style>
+</head>
+<body>
+<p>"KIWI</p>
+<h1>"HELLO"</h1>
+<h2>"WORLD"</h2>
+</body>
+</html
+-----------------------------------------------------------HOW TO ADD CLASS-------------------------------------------------------------------------
+
